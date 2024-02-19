@@ -1,0 +1,15 @@
+.uploadjson_btn{
+    border: none;
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #1cb4ff ;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.uploadjson_btn:hover{
+    background-color: orange;
+    
+}

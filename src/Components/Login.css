@@ -1,0 +1,171 @@
+.login-container{
+    width:100%;
+    height:100vh;
+    position:relative;
+    
+}
+.asset1{
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 100;
+    word-wrap: break-word;
+}
+.asset2{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.login-form{
+    width:100%;
+    height:100vh;
+    flex:1;
+    display:flex;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+}
+.left-side{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn{
+    background-color: orange;
+    width:30%;
+    border-radius: 12px;
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px 2px black;
+
+}
+.login-btn:hover{
+    color:black;
+    background-color: aliceblue;
+    text-shadow: none;
+}
+.input-tags{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+}
+input{
+    border-radius: 9px;
+    font-size: larger;
+    padding:0.5rem;
+    width:100%;
+}
+.input-form{
+position:absolute;
+width:100%;
+height:30vh;
+margin-bottom: 120px;
+display:flex;
+flex-direction: column;
+gap:0.5rem
+}    
+.right-side{
+    flex:0.5;
+    height:100vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.showpass-icon-contianer:hover{
+color:grey;
+}
+.login-form-container{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:40vh;
+    width:90%;
+    gap:2rem;
+    margin-bottom: 8.5rem;
+}
+.svg{
+    height:50vh;
+    width:100%;
+}
+
+.login-error .input-tags input {
+    border: 1px solid red;
+    box-shadow: 0 0 5px red;
+  }
+  
+  .login-error .input-tags input:focus {
+    box-shadow: none;
+  }
+  .greeting{
+    margin-top: 1rem;
+  }
+
+  .loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  @media (max-width: 600px){
+    .app-logo{
+        z-index: 100 !important;
+    }
+    .login-form{
+        margin-top: 4rem;
+    }
+    .asset1{
+        width:300px !important;
+    }
+    .asset2{
+        width:300px !important;
+    }
+    .greeting{
+        margin-top: 4rem;
+        font-size: medium;
+    }
+    .svg{
+        height:40vh;
+    }
+    label{
+        font-size: small;
+    }
+  }
+
+  @media (max-width: 450px){
+body{
+ width:100%;
+ height:100vh;
+ display:flex;
+ align-items: center;
+ justify-content: center;   
+
+}
+    
+
+
+  }
+  

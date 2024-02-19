@@ -1,0 +1,32 @@
+.flag_btns1{
+    width: 150px;
+    background-color: rgb(12, 165, 12);
+    color: white;
+}
+.flag_btns2{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(231, 23, 23);
+    color: white;
+
+}
+.flag_btns3{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(231, 179, 23);
+    color: white;
+
+}
+.flag_btns1:hover{
+    background-color: rgb(13, 97, 13);
+}
+.flag_btns2:hover{
+    background-color: rgb(166, 34, 7);
+}
+.flag_btns3:hover{
+    background-color: rgb(61, 50, 48);
+}

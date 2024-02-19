@@ -1,0 +1,24 @@
+.main_div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.card_div{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(252, 249, 240);
+}
+.card{
+    background-color: rgb(252, 249, 240);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
